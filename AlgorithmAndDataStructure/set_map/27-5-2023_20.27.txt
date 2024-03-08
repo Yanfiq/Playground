@@ -1,0 +1,16 @@
+=========== PAYMENT RECEIPT ============
+----------------------------------------
+Date  : 27/5/2023
+Clock : 20:27
+----------------------------------------
+S01E01 	SEDAAP SALERO PADANG 86
+ 3PCS x	3200	= IDR. 9600
+S01E02 	INDOMIE GORENG ACEH 90 
+ 2PCS x	2820	= IDR. 5640
+S02E02 	LIFEBUOY BW LEMON FRESH 90
+ 1PCS x	5000	= IDR. 5000
+
+TOTAL		: IDR. 20240
+AMOUNT OF MONEY : IDR. 25000
+CHANGE		: IDR. 4760
+======= THANK YOU FOR YOUR VISIT =======

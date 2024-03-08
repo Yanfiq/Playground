@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1f20;
+    color: white;
+  }
+
+  header {
+    display: inline;
+  }
+
+  nav {
+    background-color: #191b1c;
+    padding: 0px;
+    margin-top: 0%;
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul {
+    margin: 0%;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav li {
+    list-style-type: none;
+    transition-duration: 400ms;
+    padding: 14px 0px;
+  }
+
+  nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  nav li:hover {
+    transition-duration: 400ms;
+    background-color: #19cdb3;
+    color: black;
+  }
+
+  .cards {
+    margin: 0%;
+  }
+
+  #home {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+  }
+
+  #home .desc {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #projects {
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    background-color: #1f1f1f;
+  }
+
+  #projects li {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  #projects .desc {
+    flex-grow: 1;
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #projects img {
+    flex-grow: 1;
+    width: 20%;
+    object-fit: cover;
+  }
+
+  #about {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about #content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 100px;
+  }
+
+  #about img {
+    flex-grow: 1;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  #about #meme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #about img {
+    flex-grow: 1;
+    width: 30%;
+    object-fit: cover;
+  }
+
+  #memes {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #memes #meme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #memes img {
+    width: 20%;
+    margin: 2%;
+    transition-duration: 200ms;
+  }
+
+  #memes img:hover {
+    transform: scale(1.1);
+  }
+
+  #contact {
+    padding: 5%;
+  }
+
+  #contact .formContent {
+    padding: 2%;
+  }
+
+  #contact #notifikasiSisaKarakter{
+    visibility: hidden;
+  }
+
+  #contact #submit {
+    transition-duration: 400ms;
+    padding: 10px;
+    background-color: #60cab4;
+    color: black;
+    border-color: #60cab4;
+    border-style: solid;
+    border-radius: 5px;
+  }
+
+  #contact #submit:hover {
+    transition-duration: 400ms;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-color: #60cab4;
+  }
+
+  .button {
+    padding: 15px;
+    color: #003836;
+    border-radius: 5%;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: #19cdb3;
+    border-color: #19cdb3;
+    border-width: 2px;
+    border-style: solid;
+    transition-duration: 400ms;
+  }
+
+  .button:hover {
+    background-color: transparent;
+    color: white;
+    border-color: #19cdb3;
+    transition-duration: 400ms;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+  }
+
+  main aside {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translate(0, -50%);
+  }
+   
+  main aside .social-media {
+    background-color: #2D3E50;
+    padding: 0%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  main aside .social-media li {
+    padding: 5px;
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+  }
+
+  main aside img {
+    width: 100%;
+    transition-duration: 200ms;
+    border-radius: 20%;
+    filter: grayscale();
+  }
+
+  main aside img:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2, 1.2) translate(-20%, 0%);
+    filter: none;
+  }

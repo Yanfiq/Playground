@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ryan Fikri</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <script src="assets/scripts/script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#memes">Memes</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <main>
+        <article id="home" class="cards">
+            <div class="desc">
+                <h1>Hi, my name is Ryan Fikri</h1>
+                <p>
+                    Undergraduate students of computer science at Sebelas Maret University.
+                </p>
+                <a class="button" href="#">SEE MORE</a>
+            </div>
+        </article>
+
+        <article id="projects" class="cards">
+            <h1>Projects</h1>
+            <p>Here are some of my projects</p>
+            <ul>
+                <li>
+                    <div class="desc">
+                        <h3>Nonsense Nebula's Problem Goes Pew Pew</h3>
+                        <p>
+                            A spaceship shooting game that is definitely not based on a game from 2002 called Platypus. <br>
+                            This game was built using only C++ and the SFML library. <br>
+                            This game was made without a game engine because if you can do it the hard way, why do it the easy way?
+                        </p>
+                        <a class="button" href="https://github.com/Yanfiq/NonsenseNebulaProblem">SEE IN GITHUB</a>
+                    </div>
+                    <img src="assets/images/screenshot.webp" alt="screenshot">
+                </li>
+            </ul>
+            <a class="button" href="#">SEE MORE</a>
+        </article>
+
+        <article id="memes" class="cards">
+            <h1>Memes</h1>
+            <p>Here are some memes made by my friends</p>
+            <div id="meme">
+                <img src="assets/images/meme1.webp" alt="meme1">
+                <img src="assets/images/meme2.webp" alt="meme2">
+                <img src="assets/images/meme3.webp" alt="meme3">
+                <img src="assets/images/meme4.webp" alt="meme4">
+                <img src="assets/images/meme5.webp" alt="meme5">
+                <img src="assets/images/meme6.webp" alt="meme6">
+                <img src="assets/images/meme7.webp" alt="meme7">
+                <img src="assets/images/meme8.webp" alt="meme8">
+            </div>
+        </article>
+
+        <article id="about" class="cards">
+            <h1>About me</h1>
+            <div id="content">
+                <div class="desc">
+                    <p>
+                        My name is Muhammad Ryan Fikri Fakhrezi, I am currently a computer science undergraduate at the Sebelas Maret University.
+                        I started college in 2022 after graduating from Muhammadiyah Boarding School Yogyakarta in the same year.
+                    </p>
+                    <p>
+                        I started my programming adventure around 2019-2020 during the COVID-19 pandemic. 
+                        The first language I learned was Python. That's when I started to love programming. 
+                        I am currently learning C, C++, JavaScript, and Java.
+                    </p>
+                    <p>
+                        For now, I'm still looking into which field I want to work in. 
+                        But for now I am quite interested in software development, game development and web development. 
+                        I hope that in the future I can create a work that can benefit the community. 
+                    </p>
+                </div>
+                <img src="assets/images/yearbook.webp" alt="yearbook photo">
+            </div>
+        </article>
+
+        <article id="contact" class="cards">
+            <h1>Contact me</h1>
+            <div class="formContent">
+                <form id="formDataDiri">
+                    <div class="form-element">
+                        <label for="inputNama">Name</label>
+                        <input  type="text" 
+                                id="inputNama" 
+                                name="nama" 
+                                placeholder="Kimi No Namaewa" 
+                                maxlength="20"
+                                required 
+                        />  
+                        <label id="notifikasiSisaKarakter">
+                            Character remains: <span id="sisaKarakter"></span>
+                        </label>
+                    </div>
+
+                    <div class="form-element">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" id="inputEmail" name="inoutEmail" placeholder="Kimi No Emailewa" required /><br />
+                    </div>
+
+                    <div class="form-element">
+                        <label for="inputMsg">Message</label><br>
+                        <textarea id="inputMsg" name="inputMsg" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-element">
+                        <input type="submit" id="submit" value="SEND" />
+                    </div>
+                </form>
+            </div>
+        </article>
+
+        <aside>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/ryan.fikri.129/"><img src="assets/images/fb.webp"></a></li>
+                <li><a href="https://www.linkedin.com/in/muhammad-ryan-fikri-fakhrezi-750504250/"><img src="assets/images/in.webp"></a></li>
+                <li><a href="https://www.instagram.com/12yan.fikri_/"><img src="assets/images/ig.webp"></a></li>
+                <li><a href="https://wa.me/6287734341945"><img src="assets/images/wa.webp"></a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ from me, by me, for me</p>
+    </footer>
+</body>
+</html>

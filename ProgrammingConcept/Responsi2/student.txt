@@ -1,0 +1,6 @@
+No. Nama                          NIM       Gender    IPK
+01. Achmad Furqon Rachmadie       L0111111  Laki-laki 4.50
+02. Ahmad Ryzen Al-Athlon         L0654321  Laki-laki 5.40
+03. Aisyah Siti Mighrofah         L0123456  Perempuan 3.60
+04. Nabila Na'lun Shogir          L0121212  Perempuan 3.50
+05. Putri Nvidia Rexus            L0987654  Perempuan 4.30

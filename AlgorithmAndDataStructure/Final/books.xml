@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+
+  <book id="101">
+    <title>BUMI</title>
+    <author>Tere Liye</author>
+    <genre>Fiction</genre>
+    <year>2005</year>
+    <price>36852</price>
+    <link>https://play.google.com/store/books/details/BUMI_unedited_version?id=Eud3DwAAQBAJ</link>
+  </book>
+
+  <book id="102">
+    <title>BULAN</title>
+    <author>Tere Liye</author>
+    <genre>Fiction</genre>
+    <year>2005</year>
+    <price>36852</price>
+    <link>https://play.google.com/store/books/details/Tere_Liye_BULAN_unedited_version?id=Fud3DwAAQBAJ</link>
+  </book>
+
+  <book id="201">
+    <title>Campbell Biology Australian and New Zealand Edition</title>
+    <author>Jane B. Reece,Noel Meyers,Lisa A. Urry,Michael L. Cain,Steven A. Wasserman,Peter V. Minorsky</author>
+    <genre>Education</genre>
+    <year>2015</year>
+    <price>804953</price>
+    <link>https://play.google.com/store/books/details/Jane_B_Reece_Campbell_Biology_Australian_and_New_Z?id=5t6aBQAAQBAJ</link>
+  </book>
+
+  <book id="202">
+    <title>Calculus For Dummies Edition 2</title>
+    <author>Mark Ryan</author>
+    <genre>Education</genre>
+    <year>2016</year>
+    <price>231419</price>
+    <link>https://play.google.com/store/books/details/Mark_Ryan_Calculus_For_Dummies?id=aTExDAAAQBAJ</link>
+  </book>
+
+  <book id="301">
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <genre>Computer</genre>
+    <year>2003</year>
+    <price>158205</price>
+    <link>https://play.google.com/store/books/details/Erik_T_Ray_Learning_XML?id=Zilck1_0c5QC</link>
+  </book>
+
+  <book id="302">
+    <title>Learning C++</title>
+    <author>Harry. H. Chaudhary.</author>
+    <genre>Computer</genre>
+    <year>2014</year>
+    <price>78616</price>
+    <link>https://play.google.com/store/books/details/Harry_H_Chaudhary_Learning_C?id=KQn2AwAAQBAJ</link>
+  </book>
+
+</bookstore>
