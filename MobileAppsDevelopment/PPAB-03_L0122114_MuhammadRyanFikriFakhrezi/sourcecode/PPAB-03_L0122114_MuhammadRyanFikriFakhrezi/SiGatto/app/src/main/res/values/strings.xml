@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Si Gatto</string>
+    <string name="gatto_intro">Hello, my name is Gatto</string>
+    <string name="gatto_welcome">Welcome to the Si Gatto app. Here you will get information about one of the people who uses my photo as a profile picture, who is also my master, his name is Ryan, he also asked me to introduce himself to you. So, here we go...</string>
+    <string name="btnProfile_label">Go To Profile</string>
+    <string name="btnGithub_label">Go To My Github</string>
+    <string name="my_nim">L0122114</string>
+    <string name="my_name">Muhammad Ryan Fikri Fakhrezi</string>
+    <string name="my_major_gen">Informatics batch of 2022</string>
+    <string name="desc_label">Description</string>
+    <string name="my_desc">Introducing my name is Muhammad Ryan Fikri Fakhrezi, you can call me Ryan. I come from Wonogiri and am currently studying computer science at Sebelas Maret University Surakarta. My favorite programming language is Java because I come from Java.</string>
+    <string name="btnShare_label">Share</string>
+</resources>

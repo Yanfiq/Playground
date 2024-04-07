@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ryan Fikri</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0">
+    <header class="inline">
+        <nav class="py-4 pl-20 top-0 sticky bg-gray-800">
+            <ul class="flex flex-row">
+                <li><a class="py-4 px-8 top-0 bg-transparent text-white font-semibold duration-300 hover:bg-blue-400 hover:duration-300" href="#home">Home</a></li>
+                <li><a class="py-4 px-8 top-0 bg-transparent text-white font-semibold duration-300 hover:bg-blue-400 hover:duration-300" href="#projects">Projects</a></li>
+                <li><a class="py-4 px-8 top-0 bg-transparent text-white font-semibold duration-300 hover:bg-blue-400 hover:duration-300" href="#memes">Memes</a></li>
+                <li><a class="py-4 px-8 top-0 bg-transparent text-white font-semibold duration-300 hover:bg-blue-400 hover:duration-300" href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="bg-slate-900">
+        <article id="home" class="p-20">
+            <div class="py-36">
+                <h1 class="text-8xl font-bold text-white pt-5 pb-0">Hi, I'm Ryan Fikri</h1>
+                <p class="text-8xl font-bold my-6 text-white">
+                    Professional Googler
+                </p>
+                <a class="my-20 p-3 bg-blue-400 border-blue-400 border-2 rounded duration-300 hover:bg-transparent hover:text-white hover:duration-200"
+                    href="#">SEE MORE</a>
+            </div>
+        </article>
+
+        <article id="projects" class="p-20">
+            <h1 class="py-5 text-4xl font-bold text-white">Projects</h1>
+            <p class="text-white text-lg">Here are some of my projects</p>
+            <ul class="flex flex-col grow" id="projectsList"></ul>
+            <a class="my-6 p-3 bg-blue-400 border-blue-400 border-2 rounded duration-300 hover:bg-transparent hover:text-white hover:duration-200 place-self-center" href="#">SEE MORE</a>
+        </article>
+
+        <article id="memes" class="p-20">
+            <h1 class="py-5 text-4xl font-bold text-white">Memes</h1>
+            <p class="text-white text-lg">Here are some memes made by my friends</p>
+            <div id="meme" class="grid grid-cols-4 gap-y-20 gap-x-5 bg-slate-800 p-10 m-10 rounded">
+                <img src="images/meme1.webp" alt="meme1" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme2.webp" alt="meme2" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme3.webp" alt="meme3" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme4.webp" alt="meme4" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme5.webp" alt="meme5" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme6.webp" alt="meme6" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme7.webp" alt="meme7" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+                <img src="images/meme8.webp" alt="meme8" class="w-5/6 hover:scale-110 hover:duration-300 duration-300">
+            </div>
+        </article>
+
+        <article id="about" class="flex flex-col p-20">
+            <h1 class="py-5 text-4xl font-bold text-white">About me</h1>
+            <div class="flex flex-row">
+                <div class="flex flex-col justify-evenly mr-24">
+                    <p class="text-white text-lg">
+                        My name is Muhammad Ryan Fikri Fakhrezi, I am currently a computer science undergraduate at the
+                        Sebelas Maret University.
+                        I started college in 2022 after graduating from Muhammadiyah Boarding School Yogyakarta in the
+                        same year.
+                    </p>
+                    <p class="text-white text-lg">
+                        I started my programming adventure around 2019-2020 during the COVID-19 pandemic.
+                        The first language I learned was Python. That's when I started to love programming.
+                        I am currently learning C, C++, JavaScript, and Java.
+                    </p>
+                    <p class="text-white text-lg">
+                        For now, I'm still looking into which field I want to work in.
+                        But for now I am quite interested in software development, game development and web development.
+                        I hope that in the future I can create a work that can benefit the community.
+                    </p>
+                </div>
+                <img src="images/meNmuezza.jpg" alt="yearbook photo" class="w-1/4 rounded-xl object-contain hover:scale-110 hover:duration-300 duration-300">
+            </div>
+        </article>
+
+        <article id="contactMe" class="p-20">
+            <h1 class="py-5 text-4xl font-bold text-white">Contact me</h1>
+            <form>
+                <table class="w-3/4">
+                    <tr>
+                        <td><label for="inputNama" class="text-white">Name</label></td>
+                        <td><input  type="text" 
+                            id="inputNama" 
+                            name="nama" 
+                            placeholder="Kimi No Namaewa" 
+                            required 
+                            class="text-white"
+                            />  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="inputEmail" class="text-white">Email</label></td>
+                        <td><input type="email" id="inputEmail" name="inoutEmail" placeholder="Kimi No Emailewa" class="text-white" required /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="inputMsg" class="text-white">Message</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea id="inputMsg" name="inputMsg" rows="5" maxlength="100" class="text-white"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label id="notifikasiSisaKarakter" class="text-white">
+                                Character remains: <span id="sisaKarakter"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" id="submit" value="SEND" class="my-6    p-3 bg-blue-400 border-blue-400 border-2 rounded duration-300 hover:bg-transparent hover:text-white hover:duration-200 place-self-center"/></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+
+        <aside class="fixed top-1/2 right-0 -translate-y-1/2">
+            <ul class="p-0 bg-blue-400 flex flex-col rounded">
+                <li class="p-1 list-none w-12 h-12"><a href="https://www.facebook.com/ryan.fikri.129/">
+                    <img class="w-full duration-200 rounded grayscale hover:duration-200 hover:scale-125 hover:-translate-x-1/4 hover:filter-none" src="images/fb.webp"></a></li>
+                <li class="p-1 list-none w-12 h-12">
+                    <a href="https://www.linkedin.com/in/muhammad-ryan-fikri-fakhrezi-750504250/">
+                        <img class="w-full duration-200 rounded grayscale hover:duration-200 hover:scale-125 hover:-translate-x-1/4 hover:filter-none" src="images/in.webp"></a></li>
+                <li class="p-1 list-none w-12 h-12">
+                    <a href="https://www.instagram.com/12yan.fikri_/">
+                        <img class="w-full duration-200 rounded grayscale hover:duration-200 hover:scale-125 hover:-translate-x-1/4 hover:filter-none" src="images/ig.webp"></a></li>
+                <li class="p-1 list-none w-12 h-12">
+                    <a href="https://wa.me/6287734341945">
+                        <img class="w-full duration-200 rounded grayscale hover:duration-200 hover:scale-125 hover:-translate-x-1/4 hover:filter-none" src="images/wa.webp"></a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="bg-gray-800 text-center p-10">
+        <p class="text-white">Made with ❤️ by Muhammad Ryan Fikri Fakhrezi with L0122114 as the NIM</p>
+    </footer>
+
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
