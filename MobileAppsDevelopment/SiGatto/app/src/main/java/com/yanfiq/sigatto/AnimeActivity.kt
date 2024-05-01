@@ -2,7 +2,6 @@ package com.yanfiq.sigatto
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class AnimeActivity : AppCompatActivity() {
-
     private lateinit var rvAnime: RecyclerView
     private val list = ArrayList<Anime>()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +29,7 @@ class AnimeActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
-    fun getListAnime() : ArrayList<Anime> {
+    private fun getListAnime() : ArrayList<Anime> {
         val dataName = resources.getStringArray(R.array.data_anime_name)
         val dataImg = resources.obtainTypedArray(R.array.data_anime_img)
         val dataShortDesc = resources.getStringArray(R.array.data_anime_shortDesc)
@@ -52,7 +50,6 @@ class AnimeActivity : AppCompatActivity() {
             override fun onItemClicked(data: Anime) {
                 seeDetails(data)
             }
-
         })
     }
 

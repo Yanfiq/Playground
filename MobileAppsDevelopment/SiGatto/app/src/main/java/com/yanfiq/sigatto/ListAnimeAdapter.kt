@@ -35,3 +35,6 @@ class ListAnimeAdapter(private val listAnime: ArrayList<Anime>) : RecyclerView.A
         fun onItemClicked(data: Anime)
     }
 }
+
+
+
