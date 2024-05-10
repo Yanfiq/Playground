@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookshelf Apps</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header class="head_bar">
+        <h1 class="head_bar__title">Bookshelf Apps</h1>
+    </header>
+    <main>
+        <section class="insert-book">
+            <h2>Insert new book</h2>
+            <form id="inputBook">
+                <div class="input">
+                    <label for="isbn">ISBN</label>
+                    <input name="isbn" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="title">Title</label>
+                    <input name="title" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="author">Author</label>
+                    <input name="author" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="year">Year</label>
+                    <input name="year" type="number" required>
+                </div>
+                <div class="input_inline">
+                    <label for="is_finished">The book has been read</label>
+                    <input name="is_finished" type="checkbox" id="is_finished" value="1">
+                </div>
+                <button id="bookSubmit" type="submit">Put the book on the <span id="finished_label">Unfinished</span> shelf</button>
+            </form>
+        </section>
+
+        <section class="search_book">
+            <h2>Search book</h2>
+            <form id="search_book_form">
+                <label for="search_keyword">Keyword</label>
+                <input id="search_keyword" type="text">
+            </form>
+        </section>
+
+        <div id="overlayer"></div>
+        <section id="edit_book">
+            <h2>Edit Book's Data</h2>
+            <div id="current_isbn" hidden></div>
+            <div id="current_table" hidden></div>
+            <form id="edit_book_data">
+                <div class="input">
+                    <label for="edit_book_title">Title</label>
+                    <input id="edit_book_title" name="title" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="edit_book_author">Author</label>
+                    <input id="edit_book_author" name="author" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="edit_book_year">Year</label>
+                    <input id="edit_book_year" name="year" type="number" required>
+                </div>
+                <button id="save_edit" type="submit">Save</button>
+            </form>
+        </section>
+
+        <section class="bookshelf">
+            <h2>Unfinished Books</h2>
+            <div id="book_unfinished" class="book_list">
+            </div>
+        </section>
+
+        <section class="bookshelf">
+            <h2>Finished Books</h2>
+            <div id="book_finished" class="book_list">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,193 @@
 <resources>
     <string name="app_name">SiGatto</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_hobby">Hobby</string>
+    <string name="title_profile">Profile</string>
+    <string name="gatto_intro">Hello, my name is Gatto</string>
+    <string name="gatto_welcome">Welcome to the Si Gatto app. Here you will get information about one of the people who uses my photo as a profile picture, who is also my master, his name is Ryan, he also asked me to introduce himself to you. So, here we go...</string>
+    <string name="btnProfile_label">Go To Profile</string>
+    <string name="btnGithub_label">Go To My Github</string>
+    <string name="my_nim">L0122114</string>
+    <string name="my_name">Muhammad Ryan Fikri Fakhrezi</string>
+    <string name="my_major_gen">Informatics batch of 2022</string>
+    <string name="desc_label">Description</string>
+    <string name="my_desc">Introducing my name is Muhammad Ryan Fikri Fakhrezi, you can call me Ryan. I come from Wonogiri and am currently studying computer science at Sebelas Maret University Surakarta. My favorite programming language is Java because I come from Java.</string>
+    <string name="btnShare_label">Share</string>
+    <string name="btnAnime_label">Watched Anime</string>
+    <string name="anime_name">Anime\'s Name</string>
+    <string name="description">Deskripsi</string>
+    <string name="tab_text_anime">Anime</string>
+    <string name="tab_text_book">Book</string>
+    <item type="drawable" name="tab_icon_anime">@drawable/baseline_tv_24</item>
+    <item name="tab_icon_book" type="drawable">@drawable/baseline_menu_book_24</item>
+
+    <string-array name="data_book_name">
+        <item>Si Anak Cahaya</item>
+        <item>Si Anak Pemberani</item>
+        <item>Si Anak Pintar</item>
+        <item>Si Anak Spesial</item>
+        <item>Si Anak Kuat</item>
+        <item>Bumi</item>
+        <item>Bulan</item>
+        <item>Matahari</item>
+        <item>Bintang</item>
+        <item>Ceroz dan Batozar</item>
+        <item>Komet</item>
+        <item>Komet Minor</item>
+    </string-array>
+
+    <integer-array name="data_book_img">
+        <item>@drawable/si_anak_cahaya</item>
+        <item>@drawable/si_anak_pemberani</item>
+        <item>@drawable/si_anak_pintar</item>
+        <item>@drawable/si_anak_spesial</item>
+        <item>@drawable/si_anak_kuat</item>
+        <item>@drawable/bumi</item>
+        <item>@drawable/bulan</item>
+        <item>@drawable/matahari</item>
+        <item>@drawable/bintang</item>
+        <item>@drawable/ceroz_dan_batozar</item>
+        <item>@drawable/komet</item>
+        <item>@drawable/komet_minor</item>
+    </integer-array>
+
+    <string-array name="data_book_desc">
+        <item>This book is about Nurmas, the child of light who had a fun-filled and amazing childhood adventure. What exactly did Nurmas do that made the whole village remember the incident that made him officially called the child of light?</item>
+        <item>This book is about Eliana, a brave child who defends the land, rivers, forests and valleys of her village. When the greed of the world comes, Eliana and her best friend work together to fight back.</item>
+        <item>This book is about Pukat, the smartest kid in the family, whose childhood is filled with exciting adventures and hilarious incidents and let\'s not forget the fights with his brothers and sisters. But will he be able to answer the great riddle, what is the most valuable treasure in their village?</item>
+        <item>This book is about Burlian, a stubborn boy who had a very special childhood. One day he will travel the world, seeing how much wider it is than his hometown.</item>
+        <item>This book is about Amelia, a child who has great dreams for her beloved village.</item>
+        <item>My name is Raib, I\'m 15 years old, tenth grade. I\'m a girl like you, your younger siblings, your neighbors. I have two cats, named White and Black. My mom and dad are nice. The teachers at my school are fun. My friends are nice and cohesive.</item>
+        <item>Her name was Seli, she was 15 years old, in tenth grade. She was just like any other teenager. Liking the same things, listening to the same songs, going to fast food outlets, watching drama series, movies, and things that teenagers like.</item>
+        <item>His name is Ali, 15 years old, class X. If only his parents had allowed him, he would already be in the final year of a physics doctoral program at a renowned university. Ali didn\'t like his school, his teachers, his classmates. Everything was boring to him. But since he found out there was something strange about me and Seli, his classmate, his boring life turned exciting.</item>
+        <item>My name is Raib, I can disappear. Seli, my classmate, can shoot lightning out of the palm of her hand. And Ali, the ringleader and genius, can turn into a giant bear. The three of us then traveled to parallel worlds unknown to many people, called the Earth Clan, Moon Clan, Sun Clan, and Star Clan. We met great characters. People from other clans.</item>
+        <item>At first, we were just going on an ordinary field trip like other school students. Until Ali, with his genius and mischievousness, decided to investigate an ancient room. We arrived in another part of the parallel world, meeting powerful fighters, gaining new powers and amazing techniques. The parallel world turns out to be vast, with so many great people in it.</item>
+        <item>After our "big enemy" escaped, the parallel world is in a precarious situation. It was only a matter of time before a major battle would take place. What if thousands of fighters who can disappear, emit lightning, including other advanced technologies appear on the surface of Earth? No one can imagine the chaos that would ensue. The situation became even more complicated when Ali, at the last second, jumped into the portal to the Comet Clan. The three of us were lost in an alien clan in search of the most powerful heirloom in a parallel world.</item>
+        <item>The battle against the Crownless One will end here. Whoever wins, it all ends here, in the Minor Comet clan, where the alliance of Hunters was once formed, and great heirlooms were once created.In the final saga against the Crownless One, me, Seli and Ali found great traveling companions, who together overcame many obstacles. Understanding things, practicing new techniques, and fighting together. This is our story. About true friendship. About sacrifice. About ambition. About forgiveness. My name is Raib, and I can disappear.</item>
+    </string-array>
+
+    <string-array name="data_anime_name">
+        <item>Angel Beats!</item>
+        <item>Bocchi the Rock</item>
+        <item>Classroom of the Elite</item>
+        <item>Frieren Beyond Journey\'s End</item>
+        <item>Golden Time</item>
+        <item>Grand Blue Dreaming</item>
+        <item>Horimiya</item>
+        <item>Kaguya-sama - Love is War</item>
+        <item>My Teen Romantic Comedy SNAFU</item>
+        <item>No Game No Life</item>
+        <item>Non Non Biyori</item>
+        <item>Oshi No Ko</item>
+        <item>Rascal Does Not Dream of Bunny Girl Senpai</item>
+        <item>Spy x Family</item>
+        <item>Sword Art Online</item>
+        <item>The Quintessential Quintuplets</item>
+    </string-array>
+
+    <integer-array name="data_anime_img">
+        <item>@drawable/angel_beats</item>
+        <item>@drawable/bocchi_the_rock</item>
+        <item>@drawable/classroom_of_the_elite</item>
+        <item>@drawable/frieren</item>
+        <item>@drawable/golden_time</item>
+        <item>@drawable/grand_blue_dreaming</item>
+        <item>@drawable/horimiya</item>
+        <item>@drawable/kaguya_sama_love_is_war</item>
+        <item>@drawable/my_teen_romantic_comedy_snafu</item>
+        <item>@drawable/no_game_no_life</item>
+        <item>@drawable/non_non_biyori</item>
+        <item>@drawable/oshi_no_ko</item>
+        <item>@drawable/rascal_does_not_dream_of_bunny_girl_senpai</item>
+        <item>@drawable/spy_x_family</item>
+        <item>@drawable/sword_art_online</item>
+        <item>@drawable/the_quintessential_quintuplets</item>
+    </integer-array>
+
+    <string-array name="data_anime_shortDesc">
+        <item><![CDATA["Angel Beats!” is a poignant tale set in the afterlife, where Yuzuru Otonashi grapples with lost memories and battles alongside others to find peace before moving on.]]></item>
+        <item><![CDATA["Bocchi the Rock!" follows socially anxious Hitori “Bocchi” Gotou as she overcomes her fears to join a band and perform live with her talented bandmates.]]></item>
+        <item><![CDATA[Classroom of the Elite portrays Koudo Ikusei Senior High School’s deceptive utopia, where only the most superior students receive favorable treatment.]]></item>
+        <item><![CDATA[Frieren: Beyond Journey’s End follows elven mage Frieren, a former hero’s party member, as she navigates her immortal life and seeks deeper connections with humans.]]></item>
+        <item><![CDATA[Golden Time follows Banri Tada, who, after a tragic accident, loses his memories and embarks on a new life at law school in Tokyo, encountering love and growth along the way.]]></item>
+        <item><![CDATA[Grand Blue follows Iori’s misadventures with his eccentric new friends as he strives to realize his ideal college dream, while also learning how to scuba dive.]]></item>
+        <item><![CDATA[Horimiya portrays Kyouko Hori and Izumi Miyamura’s unexpected friendship, revealing their hidden selves beyond appearances.]]></item>
+        <item><![CDATA[Kaguya-sama: Love Is War portrays two prideful geniuses who engage in over-the-top schemes to make the other confess their love, believing that the first to do so would “lose” in their relationship.]]></item>
+        <item><![CDATA[My Teen Romantic Comedy SNAFU follows Hachiman Hikigaya, a cynical high school student forced into the Volunteer Service Club, where he navigates others’ problems with his unique perspective.]]></item>
+        <item><![CDATA[No Game No Life revolves around Sora and Shiro, two genius hikikomori (shut-in) siblings who dominate the online gaming world as “Blank”, the undefeatable duo, and are challenged to an online chess match by an anonymous person.]]></item>
+        <item><![CDATA[Non Non Biyori focuses on a group of students in a quiet countryside village, introducing the arrival of Ichijo Hotaru, a transfer student from Tokyo, who becomes the fifth student at the village school.]]></item>
+        <item><![CDATA[Oshi no Ko follows a doctor and his recently deceased patient, reborn as twins to a famous Japanese pop idol, navigating the highs and lows of the entertainment industry.]]></item>
+        <item><![CDATA[Rascal Does Not Dream of Bunny Girl Senpai follows Sakuta Azusagawa, who encounters a mysterious bunny girl during Golden Week, unraveling a tale of adolescence and intrigue.]]></item>
+        <item><![CDATA[Spy × Family follows a spy who “builds a family” for a mission, unaware that his adopted daughter is a telepath and his wife-to-be is a skilled assassin.]]></item>
+        <item><![CDATA[Sword Art Online follows Kirito, a powerful swordsman, and his friends trapped in a virtual reality MMORPG, fighting for their lives and seeking escape by beating the game.]]></item>
+        <item><![CDATA[The Quintessential Quintuplets follows a high-school student hired as a tutor for identical quintuplets, navigating their academic struggles and unexpected bonds.]]></item>
+    </string-array>
+
+    <string-array name="data_anime_longDesc">
+        <item>
+            <![CDATA[\t\tDeath is one of many mysteries that has left humanity in the dark since the dawn of time. However, the burning question of what happens to the soul after one dies is soon answered to 17-year-old Yuzuru Otonashi. Waking up with no previous memories in a dimension between life and death, he discovers the unsettling truth of the afterlife.
+            \n\n
+            \t\tTaking the form of a high school, this bizarre dimension is designated to shelter those who died unwanted deaths. Feeling wronged by God during their earthly lives, the school\'s residents have decided to form the Afterlife Battlefront—a rebellious faction determined to oppose their god-like student council president, Kanade \"Angel\" Tachibana. The group\'s leader, Yuri Nakamura, recruits Otonashi in their fight against Angel in order to take control of their own lives. However, questioning the morality behind their actions, Otonashi takes a step behind the enemy lines to understand the opposing side of their common fate.]]></item>
+        <item><![CDATA[\t\tYearning to make friends and perform live with a band, lonely and socially anxious Hitori \"Bocchi\" Gotou devotes her time to playing the guitar. On a fateful day, Bocchi meets the outgoing drummer Nijika Ijichi, who invites her to join Kessoku Band when their guitarist, Ikuyo Kita, flees before their first show. Soon after, Bocchi meets her final bandmate—the cool bassist Ryou Yamada.
+            \n\n
+            \t\tAlthough their first performance together is subpar, the girls feel empowered by their shared love for music, and they are soon rejoined by Kita. Finding happiness in performing, Bocchi and her bandmates put their hearts into improving as musicians while making the most of their fleeting high school days.]]></item>
+        <item><![CDATA[\t\tOn the surface, Koudo Ikusei Senior High School is a utopia. The students enjoy an unparalleled amount of freedom, and it is ranked highly in Japan. However, the reality is less than ideal. Four classes, A through D, are ranked in order of merit, and only the top classes receive favorable treatment.
+            \n\n
+            \t\tKiyotaka Ayanokouji is a student of Class D, where the school dumps its worst. There he meets the unsociable Suzune Horikita, who believes she was placed in Class D by mistake and desires to climb all the way to Class A, and the seemingly amicable class idol Kikyou Kushida, whose aim is to make as many friends as possible.
+            \n\n
+            \t\tWhile class membership is permanent, class rankings are not; students in lower ranked classes can rise in rankings if they score better than those in the top ones. Additionally, in Class D, there are no bars on what methods can be used to get ahead. In this cutthroat school, can they prevail against the odds and reach the top?]]></item>
+        <item><![CDATA[\t\tDuring their decade-long quest to defeat the Demon King, the members of the hero\'s party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.
+            \n\n
+            \t\tHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.
+            \n\n
+            \t\tAs the years pass, Frieren gradually realizes how her days in the hero\'s party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.]]></item>
+        <item><![CDATA[\t\tDue to a tragic accident, Banri Tada is struck with amnesia, dissolving the memories of his hometown and past. However, after befriending Mitsuo Yanagisawa, he decides to move on and begin a new life at law school in Tokyo. But just as he is beginning to adjust to his college life, the beautiful Kouko Kaga dramatically barges into Banri\'s life, and their chance meeting marks the beginning of an unforgettable year.
+            \n\n
+            \t\tAfter having a glimpse of college life, Banri learns that he is in a new place and a new world—a place where he can be reborn, have new friends, fall in love, make mistakes, and grow. And as he begins to discover who he was, the path he has chosen leads him towards a blindingly bright life that he will never want to forget.]]></item>
+        <item><![CDATA[\t\tIori Kitahara moves to the coastal town of Izu for his freshman year at its university, taking residence above Grand Blue, his uncle\'s scuba diving shop. Iori has high hopes and dreams about having the ideal college experience, but when he enters the shop he is sucked into the alcoholic activities of the carefree members of the Diving Club who frequent the place. Persuaded by upperclassmen Shinji Tokita and Ryuujirou Kotobuki, Iori reluctantly joins their bizarre party. His cousin Chisa Kotegawa later walks in and catches him in the act, earning Iori her utter disdain.
+            \n\n
+            \t\tBased on Kenji Inoue and Kimitake Yoshioka\'s popular comedy manga, Grand Blue follows Iori\'s misadventures with his eccentric new friends as he strives to realize his ideal college dream, while also learning how to scuba dive.]]></item>
+        <item><![CDATA[\t\tOn the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people\'s minds. After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates. However, a fateful meeting between the two lays both of their hidden selves bare. Even though she is popular at school, Hori has little time to socialize with her friends due to housework. On the other hand, Miyamura lives under the noses of his peers, his body bearing secret tattoos and piercings that make him look like a gentle delinquent.
+            \n\n
+            \t\tHaving opposite personalities yet sharing odd similarities, the two quickly become friends and often spend time together in Hori\'s home. As they both emerge from their shells, they share with each other a side of themselves concealed from the outside world.]]></item>
+        <item><![CDATA[\t\tAt the renowned Shuchiin Academy, Miyuki Shirogane and Kaguya Shinomiya are the student body\'s top representatives. Ranked the top student in the nation and respected by peers and mentors alike, Miyuki serves as the student council president. Alongside him, the vice president Kaguya—eldest daughter of the wealthy Shinomiya family—excels in every field imaginable. They are the envy of the entire student body, regarded as the perfect couple.
+            \n\n
+            \t\tHowever, despite both having already developed feelings for the other, neither are willing to admit them. The first to confess loses, will be looked down upon, and will be considered the lesser. With their honor and pride at stake, Miyuki and Kaguya are both equally determined to be the one to emerge victorious on the battlefield of love!]]></item>
+        <item><![CDATA[\t\tHachiman Hikigaya is an apathetic high school student with narcissistic and semi-nihilistic tendencies. He firmly believes that joyful youth is nothing but a farce, and everyone who says otherwise is just lying to themselves.
+            \n\n
+            \t\tIn a novel punishment for writing an essay mocking modern social relationships, Hachiman\'s teacher forces him to join the Volunteer Service Club, a club that aims to extend a helping hand to any student who seeks their support in achieving their goals. With the only other club member being the beautiful ice queen Yukino Yukinoshita, Hachiman finds himself on the front line of other people\'s problems—a place he never dreamed he would be. As Hachiman and Yukino use their wits to solve many students\' problems, will Hachiman\'s rotten view of society prove to be a hindrance or a tool he can use to his advantage?]]></item>
+        <item><![CDATA[\t\tSixteen sentient races inhabit Disboard, a world overseen by Tet, the One True God. The lowest of the sixteen—Imanity—consists of humans, a race with no affinity for magic. In a place where everything is decided through simple games, humankind seems to have no way out of their predicament—but the arrival of two outsiders poses a change.
+            \n\n
+            \t\tOn Earth, stepsiblings Sora and Shiro are two inseparable shut-ins who dominate various online games under the username "Blank." While notorious on the internet, the pair believe that life is merely another dull game. However, after responding to a message from an unknown user, they are suddenly transported to Disboard. The mysterious sender turns out to be Tet, who informs them about the world\'s absolute rules. After Tet leaves, Sora and Shiro begin their search for more information and a place to stay, taking them to Elkia—Imanity\'s only remaining kingdom.
+            \n\n
+            \t\tThere, the duo encounters Stephanie Dola, an emotional girl vying for the kingdom\'s sovereignty. In desperation, she attempts to regain her father\'s throne, but her foolhardiness makes her goal unachievable. Inspired by the girl\'s motivation and passion, Sora and Shiro decide to aid Stephanie in getting Elkia back on its feet, ultimately aiming to become the new rulers of the enigmatic realm.]]></item>
+        <item><![CDATA[\t\tHotaru Ichijou\'s lifestyle completely changes when she leaves Tokyo and moves with her family to the isolated Asahigaoka village. Her new school has only five students including herself, all sharing a single classroom regardless of grade level. There are no convenience stores in the area, and it can take up to two hours for a bus to arrive.
+            \n\n
+            \t\tNevertheless, Hotaru finds herself captivated by the countryside\'s charm thanks to her four unique schoolmates with whom she quickly forms a genuine bond. The most colorful of them is Renge Miyauchi, a first-grader who is often perceptive despite her age. However, no less intriguing are the three Koshigaya siblings: the quiet oldest brother Suguru, the petite older sister Komari, and the prankish youngest sister Natsumi.
+            \n\n
+            \t\tHaving someone from the city join their cheerful little group enlivens the ordinary days in Asahigaoka. Not only does Hotaru bring firsthand knowledge from the alluring outside world, but her fresh outlook on life welcomes a blossom of change to their usual routine.]]></item>
+        <item><![CDATA[\t\tIn the entertainment world, celebrities often show exaggerated versions of themselves to the public, concealing their true thoughts and struggles beneath elaborate lies. Fans buy into these fabrications, showering their idols with undying love and support, until something breaks the illusion. Sixteen-year-old rising star Ai Hoshino of pop idol group B Komachi has the world captivated; however, when she announces a hiatus due to health concerns, the news causes many to become worried.
+            \n\n
+            \t\tAs a huge fan of Ai, gynecologist Gorou Amemiya cheers her on from his countryside medical practice, wishing he could meet her in person one day. His wish comes true when Ai shows up at his hospital—not sick, but pregnant with twins! While the doctor promises Ai to safely deliver her children, he wonders if this encounter with the idol will forever change the nature of his relationship with her.]]></item>
+        <item><![CDATA[\t\tThe rare and inexplicable Puberty Syndrome is thought of as a myth. It is a rare disease which only affects teenagers, and its symptoms are so supernatural that hardly anyone recognizes it as a legitimate occurrence. However, high school student Sakuta Azusagawa knows from personal experience that it is very much real, and happens to be quite prevalent in his school.
+            \n\n
+            \t\tMai Sakurajima is a third-year high school student who gained fame in her youth as a child actress, but recently halted her promising career for reasons unknown to the public. With an air of unapproachability, she is well known throughout the school, but none dare interact with her—that is until Sakuta sees her wandering the library in a bunny girl costume. Despite the getup, no one seems to notice her, and after confronting her, he realizes that she is another victim of Puberty Syndrome. As Sakuta tries to help Mai through her predicament, his actions bring him into contact with more girls afflicted with the elusive disease.]]></item>
+        <item><![CDATA[\t\tCorrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the thin veneer of peace between neighboring countries Ostania and Westalis. In spite of their plots, renowned spy and master of disguise \"Twilight\" fulfills dangerous missions one after another in the hope that no child will have to experience the horrors of war.
+            \n\n
+            \t\tIn the bustling Ostanian city of Berlint, Twilight dons the alias of \"Loid Forger\", an esteemed psychiatrist. However, his true intention is to gather intelligence on prominent politician Donovan Desmond, who only appears rarely in public at his sons\' school: the prestigious Eden Academy. Enlisting the help of unmarried city hall clerk Yor Briar to act as his wife and adopting the curious six-year-old orphan Anya as his daughter, Loid enacts his master plan. He will enroll Anya in Eden Academy, where Loid hopes she will excel and give him the opportunity to meet Donovan without arousing suspicion.
+            \n\n
+            \t\tUnfortunately for Loid, even a man of his talents has trouble playing the figure of a loving father and husband. And just like Loid is hiding his true identity, Yor—who is an underground assassin known as \"Thorn Princess\"—and Anya—an esper who can read people\'s minds—have no plans to disclose their own secrets either. Although this picture-perfect family is founded on deception, the Forgers gradually come to understand that the love they share for one another trumps all else.]]></item>
+        <item><![CDATA[\t\tEver since the release of the innovative NerveGear, gamers from all around the globe have been given the opportunity to experience a completely immersive virtual reality. Sword Art Online (SAO), one of the most recent games on the console, offers a gateway into the wondrous world of Aincrad, a vivid, medieval landscape where users can do anything within the limits of imagination. With the release of this worldwide sensation, gaming has never felt more lifelike.
+            \n\n
+            \t\tHowever, the idyllic fantasy rapidly becomes a brutal nightmare when SAO\'s creator traps thousands of players inside the game. The \"log-out\" function has been removed, with the only method of escape involving beating all of Aincrad\'s one hundred increasingly difficult levels. Adding to the struggle, any in-game death becomes permanent, ending the player\'s life in the real world.
+            \n\n
+            \t\tWhile Kazuto \"Kirito\" Kirigaya was fortunate enough to be a beta-tester for the game, he quickly finds that despite his advantages, he cannot overcome SAO\'s challenges alone. Teaming up with Asuna Yuuki and other talented players, Kirito makes an effort to face the seemingly insurmountable trials head-on. But with difficult bosses and threatening dark cults impeding his progress, Kirito finds that such tasks are much easier said than done.]]></item>
+        <item><![CDATA[\t\tFuutarou Uesugi is an ace high school student, but leads an otherwise tough life. His standoffish personality and reclusive nature have left him friendless, and his father is debt-ridden, forcing his family to scrape by.
+            \n\n
+            \t\tOne day during his lunch break, Uesugi argues with a female transfer student who has claimed \"his seat\", leading both of them to dislike each other. That same day, he is presented with a golden opportunity to clear his family\'s debt: a private tutoring gig for a wealthy family\'s daughter, with a wage of five times the market price. He accepts the proposal, but is horrified to discover that the client, Itsuki Nakano, is the girl he confronted earlier!
+            \n\n
+            \t\tAfter unsuccessfully trying to get back on Itsuki\'s good side, Uesugi finds out that his problems don\'t end there: Itsuki is actually a quintuplet, so in addition to her, he must also tutor her sisters—Miku, Yotsuba, Nino, and Ichika—who, despite the very real threat of flunking, want nothing to do with a tutor. However, his family\'s livelihood is on the line so Uesugi pushes on, adamant in his resolve to rid the sisters of their detest for studying and successfully lead them to graduation.]]></item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
